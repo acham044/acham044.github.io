@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume — Albert Chammas</title>
+  <meta name="description" content="Resume summary for Albert Chammas: Biology student at UC Riverside with clinical imaging, radiology, and research experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .resume-grid {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+    .resume-side h4 {
+      font-family: var(--sans);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--ink-muted);
+      margin: 18px 0 8px;
+    }
+    .resume-side p, .resume-side li {
+      font-size: 0.92rem;
+      color: var(--ink-soft);
+    }
+    .resume-side ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .resume-side li {
+      padding: 3px 0;
+    }
+    .resume-main h3 {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      margin-top: 28px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .resume-item {
+      padding: 14px 0;
+    }
+    .resume-item .role {
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .resume-item .org {
+      color: var(--accent);
+      font-size: 0.92rem;
+      margin-bottom: 4px;
+    }
+    .resume-item p {
+      font-size: 0.94rem;
+      margin: 6px 0 0;
+    }
+    @media (max-width: 860px) {
+      .resume-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+    @media print {
+      .nav, footer, .cta, .page-header .hero-eyebrow { display: none; }
+      .page-header { padding: 24px 0; border-bottom: 1px solid #ddd; }
+      body { font-size: 12pt; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">AC</span>
+        <span>Albert Chammas</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="hero-eyebrow">Resume</span>
+      <h1>Albert Chammas</h1>
+      <p>Biology · UC Riverside · Medical Imaging &amp; Clinical Research Portfolio</p>
+      <div class="hero-actions" style="margin-top: 18px;">
+        <button class="btn btn-primary" onclick="window.print()">Print / Save PDF</button>
+        <a class="btn" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="resume-grid">
+        <aside class="resume-side">
+          <h4>Education</h4>
+          <p><strong>UC Riverside</strong><br/>B.S. Biology · GPA 3.95<br/>Expected June 2026</p>
+
+          <h4>Focus Areas</h4>
+          <ul>
+            <li>Medical Imaging</li>
+            <li>Clinical Research</li>
+            <li>3D Visualization</li>
+            <li>Radiology Workflows</li>
+          </ul>
+
+          <h4>Imaging Tools</h4>
+          <ul>
+            <li>3D Slicer</li>
+            <li>OsiriX</li>
+            <li>DICOM Review</li>
+          </ul>
+
+          <h4>Technical</h4>
+          <ul>
+            <li>Python, R, SQL</li>
+            <li>Machine Learning</li>
+            <li>Data Visualization</li>
+            <li>Image Preprocessing</li>
+          </ul>
+
+          <h4>Laboratory</h4>
+          <ul>
+            <li>DNA Extraction</li>
+            <li>PCR · Gel Electrophoresis</li>
+            <li>Protocol Optimization</li>
+          </ul>
+
+          <h4>Contact</h4>
+          <p>acham044@ucr.edu<br/>1 (909) 616-9230<br/>Riverside, California</p>
+
+          <h4>Certifications</h4>
+          <ul>
+            <li>CPR Certified</li>
+          </ul>
+        </aside>
+
+        <div class="resume-main">
+          <h3>Summary</h3>
+          <p>Biology student at UC Riverside with clinical radiology exposure, research discipline, and a focused interest in medical imaging, 3D visualization, and diagnostic analysis. Portfolio covers X-ray image classification, DICOM-based review workflows, 3D Slicer segmentation, and OsiriX-based imaging exploration.</p>
+
+          <h3>Experience</h3>
+          <div class="resume-item">
+            <div class="role">Radiology Practitioner Assistant</div>
+            <div class="org">COPE Health Scholars · June 2025 – Sep. 2025</div>
+            <p>Analyzed X-ray imaging and supported diagnostic workflows in a hospital setting. Assisted in identifying key visual patterns and abnormalities in radiographic images, and collaborated with healthcare professionals to review cases and support evaluation of medical imaging systems.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">Clinical Observer — Dermatology</div>
+            <div class="org">Riverside University Health System · May 2025 – Present</div>
+            <p>Observed patient care workflows and clinical decision-making including biopsies and minor procedures. Collaborated with medical students and residents to discuss diagnoses and treatment approaches.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">Health Scholar</div>
+            <div class="org">COPE Health Solutions · Sep. 2023 – Present</div>
+            <p>Provided direct patient support, including vital signs, mobility assistance, and clinical material preparation. Gained exposure to surgical procedures, emergency care, and hospital workflows.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">SHPEP Scholar</div>
+            <div class="org">Summer Health Professions Education Program · June 2025 – July 2025</div>
+            <p>Selected through a competitive national program for hands-on exposure to clinical practice and healthcare systems. Participated in simulations, suturing, and interdisciplinary training focused on patient care and clinical reasoning.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">Undergraduate Research Assistant</div>
+            <div class="org">UC Riverside, Research Integrity · Jan. 2025 – Present</div>
+            <p>Conducted molecular biology research involving DNA extraction, PCR, and gel electrophoresis to analyze genetic barcoding in pomegranates. Optimized lab protocols and contributed to phylogenetic modeling. Co-authored a published protocol for high molecular weight DNA extraction.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">Organic Chemistry Learning Assistant / Supplemental Instructor</div>
+            <div class="org">UC Riverside School of Medicine, Student Affairs · Jan. 2026 – June 2026</div>
+            <p>Led structured study sessions on advanced organic chemistry topics including reaction mechanisms and spectroscopy. Developed instructional materials and applied evidence-based teaching strategies.</p>
+          </div>
+
+          <h3>Portfolio Projects</h3>
+          <div class="resume-item">
+            <div class="role">X-Ray Image Classification &amp; Diagnostic Insight Tool</div>
+            <div class="org">Python · Machine Learning · Medical Imaging</div>
+            <p>Python-based medical imaging project analyzing X-ray images for common abnormalities with preprocessing, model training, and visualization of prediction outputs.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">3D CT Anatomical Segmentation in 3D Slicer</div>
+            <div class="org">3D Slicer · DICOM · Segmentation</div>
+            <p>Segmentation and reconstruction workflow converting CT imaging data into interpretable 3D anatomical models using ROI isolation and mask refinement.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">OsiriX DICOM Review and Multi-Planar Imaging Workflow</div>
+            <div class="org">OsiriX · Imaging Review · Multi-Planar Analysis</div>
+            <p>Structured DICOM review process across axial, sagittal, and coronal views with consistent annotation and organized series review.</p>
+          </div>
+          <div class="resume-item">
+            <div class="role">Lesion Segmentation and Volumetric Analysis in 3D Slicer</div>
+            <div class="org">3D Slicer · ROI Analysis · 3D Visualization</div>
+            <p>Case-study workflow segmenting a lesion ROI and generating reproducible 2D/3D measurement outputs for consistent shape, location, and size review.</p>
+          </div>
+
+          <h3>Publications</h3>
+          <div class="resume-item">
+            <div class="role">High Molecular Weight DNA Extraction of Pomegranate V.2</div>
+            <div class="org">Co-author · CTAB Extraction, PCR, Gel Electrophoresis</div>
+            <p>Co-authored a published protocol detailing optimized methods for high molecular weight DNA extraction from pomegranate samples. Conducted experimental validation and contributed to protocol refinement to improve DNA yield and quality for downstream genetic analysis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>&copy; <span id="year">2026</span> Albert Chammas. All rights reserved.</div>
+      <ul class="footer-links">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
